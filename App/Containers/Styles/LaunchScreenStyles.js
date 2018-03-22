@@ -14,5 +14,7 @@ export default StyleSheet.create({
   },
   centered: {
     alignItems: 'center'
+  },
+  goButton: {
   }
 })

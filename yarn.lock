@@ -6931,7 +6931,13 @@ react-native@0.50.4:
     xmldoc "^0.4.0"
     yargs "^9.0.0"
 
-react-navigation@^1.0.0-beta.21:
+react-navigation-redux-helpers@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/react-navigation-redux-helpers/-/react-navigation-redux-helpers-1.0.3.tgz#46dd9f83bf4ba74ca43d346575c169137f2eaac9"
+  dependencies:
+    invariant "^2.2.2"
+
+react-navigation@^1.0.0-beta.30:
   version "1.5.8"
   resolved "https://registry.yarnpkg.com/react-navigation/-/react-navigation-1.5.8.tgz#f04bec1a39af8cfcf651337d351e8d0a144f1b6d"
   dependencies:
@@ -7405,9 +7411,15 @@ resolve-url@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/resolve-url/-/resolve-url-0.2.1.tgz#2c637fe77c893afd2a663fe21aa9080068e2052a"
 
-resolve@1.1.7, resolve@^1.1.6:
+resolve@1.1.7:
   version "1.1.7"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.1.7.tgz#203114d82ad2c5ed9e8e0411b3932875e889e97b"
+
+resolve@^1.1.6:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.6.0.tgz#0fbd21278b27b4004481c395349e7aba60a9ff5c"
+  dependencies:
+    path-parse "^1.0.5"
 
 response-time@~2.3.1:
   version "2.3.2"
